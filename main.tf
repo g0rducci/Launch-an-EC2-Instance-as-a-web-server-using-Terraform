@@ -16,7 +16,7 @@ terraform {
 }
 
 provider "aws" {
-region = "${var.regin}"
+region = "${var.region}"
 }
 
 resource "aws_security_group" "web-server" {
